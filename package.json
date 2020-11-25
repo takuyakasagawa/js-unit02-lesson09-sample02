@@ -10,12 +10,8 @@
   },
   "jest": {
     "transform": {
-      "^.+\\.jsx?$": "babel-jest"
-    },
-    "collectCoverageFrom": [
-      "**/src/**/*.js"
-    ],
-    "collectCoverage": true
+      "^.+\\.js$": "babel-jest"
+    }
   },
   "keywords": [],
   "author": "",
@@ -28,12 +24,12 @@
     "whatwg-fetch": "^2.0.3"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.8",
+    "@babel/preset-env": "^7.12.7",
     "babel-jest": "^22.4.1",
-    "babel-preset-env": "^1.6.1",
     "jest": "^26.6.3",
     "webpack": "^3.10.0",
-    "webpack-dev-middleware": "^2.0.4",
-    "webpack-dev-server": "^2.11.1",
-    "webpack-hot-middleware": "^2.21.0"
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^2.11.1"
   }
 }
